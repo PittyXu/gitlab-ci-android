@@ -11,6 +11,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get -qq update \
  && apt-get install -qqy --no-install-recommends \
+      ssh \
       bzip2 \
       curl \
       git-core \
